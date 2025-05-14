@@ -1,0 +1,18 @@
+[project]
+authors = ["pyramidheadshark <pyramidheadshark@gmail.com>"]
+channels = ["conda-forge"]
+name = "GeminiJudge"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+
+[pypi-dependencies]
+streamlit = ">=1.45.1, <2"
+google-generativeai = ">=0.8.5, <0.9"
+python-docx = ">=1.1.2, <2"
+dotenv = ">=0.9.9, <0.10"
+pypdf2 = ">=3.0.1, <4"
